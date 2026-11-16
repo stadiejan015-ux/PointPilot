@@ -1,0 +1,51 @@
+{
+  "_hinweis": "Von dir gepflegt. Jedes Programm braucht source (URL), asOf (Stand JJJJ-MM-TT) und verified. verified=true erst, nachdem du die Angaben selbst gegen die Quelle geprüft hast.",
+  "programs": [
+    {
+      "id": "payback",
+      "name": "PAYBACK",
+      "unit": "°Punkte",
+      "category": "retail",
+      "source": "https://www.payback.de",
+      "asOf": "2026-11-16",
+      "verified": false
+    },
+    {
+      "id": "revolut",
+      "name": "Revolut RevPoints",
+      "unit": "RevPoints",
+      "category": "bank",
+      "source": "https://www.revolut.com/de-DE/rev-points/",
+      "asOf": "2026-11-16",
+      "verified": false
+    },
+    {
+      "id": "miles-and-more",
+      "name": "Miles & More",
+      "unit": "Meilen",
+      "category": "airline",
+      "source": "https://www.miles-and-more.com",
+      "asOf": "2026-11-16",
+      "verified": false
+    },
+    {
+      "id": "flying-blue",
+      "name": "Flying Blue",
+      "unit": "Meilen",
+      "category": "airline",
+      "source": "https://www.flyingblue.com",
+      "asOf": "2026-11-16",
+      "verified": false
+    },
+    {
+      "id": "avios",
+      "name": "Avios",
+      "unit": "Avios",
+      "category": "airline",
+      "source": "https://www.avios.com",
+      "asOf": "2026-11-16",
+      "verified": false,
+      "note": "Ein Programm für alle Avios-Konten (z. B. British Airways Executive Club, Iberia Plus). Bei Bedarf später nach Konto trennen."
+    }
+  ]
+}
