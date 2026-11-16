@@ -1,0 +1,41 @@
+{
+  "_hinweis": "Von dir gepflegt. ratio: {\"from\": Quellpunkte, \"to\": Zielpunkte} als ganze Zahlen (3:2 => {\"from\":3,\"to\":2}); null = unbekannt. minAmount = Mindestmenge in Quellpunkten, step = nur Vielfache davon übertragbar (null = keine Einschränkung). Ein eingetragenes Verhältnis braucht immer source und asOf. verified=true erst, nachdem du es selbst gegen die Quelle geprüft hast.",
+  "routes": [
+    {
+      "id": "payback__miles-and-more",
+      "from": "payback",
+      "to": "miles-and-more",
+      "ratio": { "from": 1, "to": 1 },
+      "minAmount": 200,
+      "step": null,
+      "source": "https://www.payback.de/partner/miles-and-more",
+      "asOf": "2026-11-16",
+      "verified": false,
+      "note": "Laut PAYBACK- und Miles-&-More-Seite: ab 200 °Punkten im Verhältnis 1:1, max. 999.999 je Transaktion, nicht umkehrbar, nur Deutschland. Wert aus Suchergebnissen der offiziellen Seiten übernommen (Seite selbst war beim Anlegen nicht abrufbar) – bitte selbst prüfen. Befristete Transferboni sind nicht berücksichtigt."
+    },
+    {
+      "id": "revolut__flying-blue",
+      "from": "revolut",
+      "to": "flying-blue",
+      "ratio": null,
+      "minAmount": null,
+      "step": null,
+      "source": "https://help.revolut.com/de-DE/help/revpoints/airline-miles/questions-airline-miles-faq3/",
+      "asOf": "2026-11-16",
+      "verified": false,
+      "note": "Revolut nennt Air France als Partner und schreibt nur „je nach Partner bis zu 1:1“. Konkretes Verhältnis (ggf. abhängig vom Revolut-Plan) bitte in der App prüfen und eintragen."
+    },
+    {
+      "id": "revolut__avios",
+      "from": "revolut",
+      "to": "avios",
+      "ratio": null,
+      "minAmount": null,
+      "step": null,
+      "source": "https://help.revolut.com/de-DE/help/revpoints/airline-miles/questions-airline-miles-faq3/",
+      "asOf": "2026-11-16",
+      "verified": false,
+      "note": "Revolut nennt British Airways als Partner und schreibt nur „je nach Partner bis zu 1:1“. Konkretes Verhältnis (ggf. abhängig vom Revolut-Plan und Avios-Konto) bitte in der App prüfen und eintragen."
+    }
+  ]
+}
